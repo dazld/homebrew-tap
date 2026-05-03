@@ -7,14 +7,14 @@ class R11y < Formula
   on_macos do
     on_arm do
       url "https://github.com/dazld/r11y/releases/download/v1.0.5/r11y-macos-arm64"
-      sha256 "c569d82f3ada542a2e179f23e67cb0f4b7ed1a1462d4ccebc94a4af497e8692f"
+      sha256 "aeebea1cd20bd6128d465e416bd882cf0e533daebc5178403d29c25e629d9c68"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dazld/r11y/releases/download/v1.0.5/r11y-linux-amd64"
-      sha256 "d758527928a055daf07d4b4a1fdfdcc79023971c824f7f57adf5b687f35d8bf9"
+      sha256 "f58d2aab988017bfd61327eb52a42ac747b053478d5643cfdafbf2204deadb8b"
     end
   end
 
