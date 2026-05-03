@@ -23,6 +23,6 @@ class R11y < Formula
   end
 
   test do
-    assert_match "r11y #{version}", shell_output("#{bin}/r11y --version")
+    assert_match "r11y v#{version}", shell_output("#{bin}/r11y --version")
   end
 end
